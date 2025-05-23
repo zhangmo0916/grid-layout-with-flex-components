@@ -6,10 +6,18 @@ body {
     margin: 0 auto;
   }
   
+  h1 {
+    width: 60%;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
   .emojis{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
+    width: 60%;
+    margin: 0 auto;
   }
 
   .emoji {
